@@ -1,0 +1,24 @@
+{
+  "name": "qt-bot",
+  "version": "0.0.0",
+  "description": "What a QT",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/NessaVR/qt-bot.git"
+  },
+  "keywords": [
+    "Cute",
+    "Discord",
+    "Bot"
+  ],
+  "author": "NessaVR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NessaVR/qt-bot/issues"
+  },
+  "homepage": "https://github.com/NessaVR/qt-bot#readme"
+}
