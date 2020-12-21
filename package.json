@@ -2,9 +2,11 @@
   "name": "qt-bot",
   "version": "0.0.0",
   "description": "What a QT",
-  "main": "dist/index.js",
+  "main": "src/qt-bot.js",
   "scripts": {
-    "test": "jest"
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec \"ts-node\" src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/NessaVR/qt-bot/issues"
   },
-  "homepage": "https://github.com/NessaVR/qt-bot#readme"
+  "homepage": "https://github.com/NessaVR/qt-bot#readme",
+  "dependencies": {
+    "discord.js": "12.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "14.14.14",
+    "nodemon": "2.0.6",
+    "ts-node": "9.1.1",
+    "typescript": "4.1.3"
+  }
 }
