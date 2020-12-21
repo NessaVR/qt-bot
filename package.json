@@ -2,7 +2,7 @@
   "name": "qt-bot",
   "version": "0.0.0",
   "description": "What a QT",
-  "main": "src/qt-bot.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "npm run build:live",
     "build": "tsc -p .",
